@@ -6,25 +6,21 @@ This Guide is a work in progress.  The guide is designed to be an interactive in
 
 ## This repository contains:
 
-| Month | Savings |
+| File  | Description  |
 | -------- | ------- |
-| January | $250 |
-| February | $80 |
-| March | $420 |
+| `DockerFile.txt` | This file has the information to create a python environment capable of running the guide. This file was created by Aard Keimpema, Tammo Jan Dikema, and Bruno Juncklaus Martins and is available: https://github.com/aardk/jupyter-casa |
+| `requirements.txt` | contains the required dependencies to run the Guide  |
+| `GetData.ipynb` | Installs casatasks, casatools, astropy, and casadata. Downloads and expands the needed Images, Premade Masks and Measurement sets from BOX: https://virginia.box.com/s/qhc736l24ikriadqvflnf0drhed7ll9z |
+| `CASAGuideIntro.ipynb` | An introduction to CASA. Includes: What is a Radio Telescope, What is an Interferometer, Key Parameters for Cleaning Data and More!  |
+| `GuideCleanCont.ipynb` |  How to Clean Continuum data (Interactive Activity)   |
+| `GuideCleanLine.ipynb`  | How to Clean Line data (Interactive Activity) |  
+| `movie.py` | Makes gif files from set of channel maps generated |
+| `newmom0.py` | Makes moment 0 maps  |
+| `plot_all.py` | Plots all channels in a grid  |
+| `plot_cont.py`  | Plots the continuum  |  
+| `Beamsize.py`  | Calculates the size of the beam. Can be used to determine image size |
+| `movie.gif` | Sample gif file |
 
-
-- Dockerfile.txt  This file has the information to create a python environment capable of running the guide. This file was created by Aard Keimpema, Tammo Jan Dikema, and Bruno Juncklaus Martins and is available: https://github.com/aardk/jupyter-casa
-- requirements.txt
-- GetData.ipynb  Installs casatasks, casatools, astropy, and casadata. Downloads and expands the needed Images, Premade Masks and Measurement sets from BOX: https://virginia.box.com/s/qhc736l24ikriadqvflnf0drhed7ll9z
-- CASAGuideIntro.ipynb An introduction to CASA. Includes: What is a Radio Telescope, What is an Interferometer, Key Parameters for Cleaning Data and More! 
-- GuideCleanCont.ipynb How to Clean Continuum data (Interactive Activity)  
-- GuideCleanLine.ipynb How to Clean Line data (Interactive Activity)
-- movie.py Makes gif files
-- newmom0.py Makes moment 0 maps 
-- plot_all.py Plots all channels in a grid 
-- plot_cont.py Plots the continuum 
-- Beamsize.py 
-- movie.gif Sample gif file
 
 Download the files and run in your own environment or use mybinder:   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 

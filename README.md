@@ -17,7 +17,7 @@ When you are done, please fill out the [Post-Survey](https://docs.google.com/for
 
 Download the files and run in your own environment or use mybinder:   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 
-This guide can be launched in mybinder. The `Dockerfile.txt` and `requirements.txt` files will produce the correct environment in mybinder. After Launching run the `1_GetData.ipynb` Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install `casatasks`, `casatools`, and other files and packages required to run the guide smoothly. 
+This guide can be launched in mybinder. The `Dockerfile.txt` file will produce the correct environment in mybinder. After Launching run the `1_GetData.ipynb` Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install `casatasks`, `casatools`, and other files and packages required to run the guide smoothly. 
 
 After running the cell in `1_GetData.ipynb`, explore the Introduction in `2_CASAguideIntro.ipynb`, try cleaning the continuum in `3_GuideCleanCont.ipynb`, and then try cleaning the line data in `4_GuideCleanLine.ipynb`! 
 
@@ -40,7 +40,7 @@ Please fill out the [Post-Survey!](https://docs.google.com/forms/d/e/1FAIpQLSesK
 | `plot_cont.py`  | Plots the continuum  |  
 | `Beamsize.py`  | Calculates the size of the beam. Can be used to determine image size |
 | `movie.gif` | Sample gif file |
-<!---  Removed for now | `requirements.txt` | This text file contains the required dependencies to run the Guide  | ---> 
+|  Removed for now  `requirements.txt` | This text file contains the required dependencies to run the Guide. This file can be used to generate a python environment will all needed dependencies.   |
 
 
 # Common Issues 

@@ -19,6 +19,8 @@ Download the files and run in your own environment or use mybinder:   [![Binder]
 
 This guide can be launched in mybinder. The `Dockerfile.txt` file will produce the correct environment in mybinder. After Launching run the `1_GetData.ipynb` Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install `casatasks`, `casatools`, and other files and packages required to run the guide smoothly. 
 
+CASA might be too much for my binder to handle? 
+
 After running the cell in `1_GetData.ipynb`, explore the Introduction in `2_CASAguideIntro.ipynb`, try cleaning the continuum in `3_GuideCleanCont.ipynb`, and then try cleaning the line data in `4_GuideCleanLine.ipynb`! 
 
 Please fill out the [Post-Survey!](https://docs.google.com/forms/d/e/1FAIpQLSesKg9eb96SLz32fdsoe6cOoh7u8o6yH33n9Mb00h_CtPkg_A/viewform?usp=sf_link)

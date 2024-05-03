@@ -26,8 +26,8 @@ Please fill out the [Post-Survey!](https://docs.google.com/forms/d/e/1FAIpQLSesK
 
 | File  | Description  |
 | -------- | ------- |
-| `DockerFile.txt` | This file has the information to create a python environment capable of running the guide. This file was created by Aard Keimpema, Tammo Jan Dikema, and Bruno Juncklaus Martins and is available [here](https://github.com/aardk/jupyter-casa) |
-| `requirements.txt` | contains the required dependencies to run the Guide  |
+| `DockerFile.txt` | This text file has the information to create a python environment capable of running the guide. This file was created by Aard Keimpema, Tammo Jan Dikema, and Bruno Juncklaus Martins and is available [here](https://github.com/aardk/jupyter-casa) |
+| `requirements.txt` | This text file contains the required dependencies to run the Guide  |
 | `GetData.ipynb` | Installs casatasks, casatools, astropy, and casadata. Downloads and expands the needed Images, Premade Masks and Measurement sets hosted on Box [here](https://virginia.box.com/s/qhc736l24ikriadqvflnf0drhed7ll9z) |
 | `CASAGuideIntro.ipynb` | An introduction to CASA. Includes: What is a Radio Telescope, What is an Interferometer, Key Parameters for Cleaning Data and More!  |
 | `GuideCleanCont.ipynb` |  How to Clean Continuum data (Interactive Activity)   |
@@ -43,5 +43,7 @@ Please fill out the [Post-Survey!](https://docs.google.com/forms/d/e/1FAIpQLSesK
 # Common Issues 
 
 Images won't load? Run the GetData.ipynb notebook and make sure the Images folder has downloaded. Still not seeing the images? Close the Guide and reopen it. 
+
+
 
 

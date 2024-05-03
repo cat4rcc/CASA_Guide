@@ -12,7 +12,7 @@ This Guide is a work in progress.  The guide is designed to be an interactive in
 | -------- | ------- |
 | `DockerFile.txt` | This file has the information to create a python environment capable of running the guide. This file was created by Aard Keimpema, Tammo Jan Dikema, and Bruno Juncklaus Martins and is available [here](https://github.com/aardk/jupyter-casa) |
 | `requirements.txt` | contains the required dependencies to run the Guide  |
-| `GetData.ipynb` | Installs casatasks, casatools, astropy, and casadata. Downloads and expands the needed Images, Premade Masks and Measurement sets hosted on Box [here]({https://virginia.box.com/s/qhc736l24ikriadqvflnf0drhed7ll9z) |
+| `GetData.ipynb` | Installs casatasks, casatools, astropy, and casadata. Downloads and expands the needed Images, Premade Masks and Measurement sets hosted on Box [here](https://virginia.box.com/s/qhc736l24ikriadqvflnf0drhed7ll9z) |
 | `CASAGuideIntro.ipynb` | An introduction to CASA. Includes: What is a Radio Telescope, What is an Interferometer, Key Parameters for Cleaning Data and More!  |
 | `GuideCleanCont.ipynb` |  How to Clean Continuum data (Interactive Activity)   |
 | `GuideCleanLine.ipynb`  | How to Clean Line data (Interactive Activity) |  

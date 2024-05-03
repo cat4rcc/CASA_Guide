@@ -1,0 +1,83 @@
+anyio==3.6.2
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+astropy==4.0.2
+async-generator==1.10
+attrs==22.2.0
+Babel==2.11.0
+backcall==0.2.0
+bleach==4.1.0
+casatasks==6.5.5.21
+casatools==6.5.5.21
+casaviewer==1.2.14
+certifi==2020.12.5
+cffi==1.15.1
+charset-normalizer==2.0.12
+contextvars==2.4
+cycler==0.10.0
+dataclasses==0.8
+decorator==5.1.1
+defusedxml==0.7.1
+entrypoints==0.4
+grpcio==1.48.2
+idna==3.4
+immutables==0.19
+importlib-metadata==4.8.3
+ipykernel==5.5.6
+ipython==7.16.3
+ipython-genutils==0.2.0
+jedi==0.17.2
+Jinja2==3.0.3
+joblib==1.1.0
+json5==0.9.14
+jsonschema==3.2.0
+jupyter-client==7.1.2
+jupyter-core==4.9.2
+jupyter-server==1.13.1
+jupyterlab==3.2.9
+jupyterlab-pygments==0.1.2
+jupyterlab-server==2.10.3
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612282412546/work
+MarkupSafe==2.0.1
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1613407855456/work
+mistune==0.8.4
+nbclassic==0.3.5
+nbclient==0.5.9
+nbconvert==6.0.7
+nbformat==5.1.3
+nest-asyncio==1.5.8
+notebook==6.4.10
+numpy==1.17.0
+olefile==0.46
+packaging==21.3
+pandocfilters==1.5.0
+parso==0.7.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///tmp/build/80754af9/pillow_1617386154532/work
+prometheus-client==0.17.1
+prompt-toolkit==3.0.36
+protobuf==3.19.6
+ptyprocess==0.7.0
+pycparser==2.21
+Pygments==2.14.0
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyrsistent==0.18.0
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz==2023.3.post1
+pyzmq==25.1.1
+requests==2.27.1
+scipy @ file:///tmp/build/80754af9/scipy_1597686635649/work
+Send2Trash==1.8.2
+six @ file:///tmp/build/80754af9/six_1605205335545/work
+sniffio==1.2.0
+terminado==0.12.1
+testpath==0.6.0
+tornado @ file:///tmp/build/80754af9/tornado_1606942266872/work
+traitlets==4.3.3
+typing-extensions==4.1.1
+urllib3==1.26.18
+wcwidth==0.2.8
+webencodings==0.5.1
+websocket-client==1.3.1
+zipp==3.6.0

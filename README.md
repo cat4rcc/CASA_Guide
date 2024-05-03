@@ -6,7 +6,7 @@
 
 This Guide is a work in progress.  The guide is designed to be an interactive introduction to CASA, Common Astronomy Software Applications Package, which is used to processes data from radio telescopes.
 
-The CASA Team, et al., *“CASA, the Common Astronomy Software Applications for Radio Astronomy”*, PASP, 134, 114501. DOI: [10.1088/1538-3873/ac9642](10.1088/1538-3873/ac9642)
+The CASA Team, et al., *“CASA, the Common Astronomy Software Applications for Radio Astronomy”*, PASP, 134, 114501. DOI: 10.1088/1538-3873/ac9642
 
 # How to Use: 
 

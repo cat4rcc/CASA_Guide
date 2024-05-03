@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 
-#Claire's CASA Guide Beta Test Ready Version
+# Claire's CASA Guide Beta Test Ready Version
 
 This Guide is a work in progress.  The guide is designed to be an interactive introduction to CASA, Common Astronomy Software Applications Package, which is used to processes data from radio telescopes. 
 
@@ -29,3 +29,9 @@ Download the files and run in your own environment or use mybinder:   [![Binder]
 This guide can be launched in mybinder. The Dockerfile.txt file will produce the correct environment in mybinder. After Launching run the GetData.ipynb Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install casatasks, casatools, and other files and packages required to run the guide smoothly. 
 
 After running the cell in GetData.ipynb, explore the Introduction, try cleaning the continuum, and then try cleaning the line data! 
+
+# Common Issues 
+
+Images won't load? Run the GetData.ipynb notebook and make sure the Images folder has downloaded. Still not seeing the images? Close the Guide and reopen it. 
+
+

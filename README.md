@@ -5,6 +5,14 @@ Claire's CASA Guide Beta Test Ready Version
 This Guide is a work in progress.  The guide is designed to be an interactive introduction to CASA, Common Astronomy Software Applications Package, which is used to processes data from radio telescopes. 
 
 ## This repository contains:
+
+| Month | Savings |
+| -------- | ------- |
+| January | $250 |
+| February | $80 |
+| March | $420 |
+
+
 - Dockerfile.txt  This file has the information to create a python environment capable of running the guide. This file was created by Aard Keimpema, Tammo Jan Dikema, and Bruno Juncklaus Martins and is available: https://github.com/aardk/jupyter-casa
 - requirements.txt
 - GetData.ipynb  Installs casatasks, casatools, astropy, and casadata. Downloads and expands the needed Images, Premade Masks and Measurement sets from BOX: https://virginia.box.com/s/qhc736l24ikriadqvflnf0drhed7ll9z

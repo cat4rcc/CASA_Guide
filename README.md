@@ -18,9 +18,6 @@ This repository contains:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD
-
 This guide can be launched in mybinder. The environment.yml file will produce the correct environment in mybinder. After Launching run the GetData.ipynb Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install casatasks, casatools, and other files and packages required to run the guide smoothly. 
 
 There are 3 Interactive Jupyter Notebooks that contain the guide: 

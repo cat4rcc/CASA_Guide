@@ -4,7 +4,10 @@
 
 # Claire's CASA Guide Beta Test Ready Version
 
-This Guide is a work in progress.  The guide is designed to be an interactive introduction to CASA, Common Astronomy Software Applications Package, which is used to processes data from radio telescopes. 
+This Guide is a work in progress.  The guide is designed to be an interactive introduction to CASA, Common Astronomy Software Applications Package, which is used to processes data from radio telescopes.
+
+The CASA Team, et al., *“CASA, the Common Astronomy Software Applications for Radio Astronomy”*, PASP, 134, 114501. DOI: 10.1088/1538-3873/ac9642
+
 # How to Use: 
 
 Before you start: 
@@ -14,9 +17,9 @@ When you are done, please fill out the [Post-Survey](https://docs.google.com/for
 
 Download the files and run in your own environment or use mybinder:   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 
-This guide can be launched in mybinder. The Dockerfile.txt and requirements.txt files will produce the correct environment in mybinder. After Launching run the GetData.ipynb Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install casatasks, casatools, and other files and packages required to run the guide smoothly. 
+This guide can be launched in mybinder. The `Dockerfile.txt` and `requirements.txt` files will produce the correct environment in mybinder. After Launching run the `1_GetData.ipynb` Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install `casatasks`, `casatools`, and other files and packages required to run the guide smoothly. 
 
-After running the cell in GetData.ipynb, explore the Introduction, try cleaning the continuum, and then try cleaning the line data! 
+After running the cell in `1_GetData.ipynb`, explore the Introduction in `2_CASAguideIntro.ipynb`, try cleaning the continuum in `3_GuideCleanCont.ipynb`, and then try cleaning the line data in `4_GuideCleanLine.ipynb`! 
 
 Please fill out the [Post-Survey!](https://docs.google.com/forms/d/e/1FAIpQLSesKg9eb96SLz32fdsoe6cOoh7u8o6yH33n9Mb00h_CtPkg_A/viewform?usp=sf_link)
 

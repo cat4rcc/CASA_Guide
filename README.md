@@ -17,6 +17,13 @@ When you are done, please fill out the [Post-Survey](https://docs.google.com/for
 
 Download the files and run in your own environment or use mybinder:   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 
+If you choose to use mybinder, you can launch via the button  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD) This should set up the correct environment to run CASA. However, the Virtual Machine provided by mybinder, may not be powerful enought to run this guide. It also will not save your progress. 
+
+If you choose to use your own environment, create a new python 3.6 environment and import the files. 
+
+
+
+
 This guide can be launched in mybinder. The `Dockerfile.txt` file will produce the correct environment in mybinder. After Launching run the `1_GetData.ipynb` Jupyter Notebook to download the measurements set, images, and premade masks. This file will also install `casatasks`, `casatools`, and other files and packages required to run the guide smoothly. 
 
 CASA might be too much for my binder to handle? 
@@ -49,6 +56,8 @@ Please fill out the [Post-Survey!](https://docs.google.com/forms/d/e/1FAIpQLSesK
 
 Images won't load? Run the GetData.ipynb notebook and make sure the Images folder has downloaded. Still not seeing the images? Close the Guide and reopen it. 
 
+File Already Exists: CASA has safety measures not to overwrite existing files. Either remove the pre-existing file or change the name of the file. 
 
+File doesn't exist: There is something wrong with the name of the file CASA is trying to open.  In a new cell, check the name of the file that is being called and check if it is consistent with the files existing in the directory. You can rename the file you want to open or update the name in the script. This is especially if images with 'double' extensions are generated (e.g., 'mask.mask' or '.cont.cont'
 
 

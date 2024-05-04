@@ -15,8 +15,6 @@ Fill out the [Pre-Survey](https://docs.google.com/forms/d/e/1FAIpQLScGCtXByL3see
 
 When you are done, please fill out the [Post-Survey](https://docs.google.com/forms/d/e/1FAIpQLSesKg9eb96SLz32fdsoe6cOoh7u8o6yH33n9Mb00h_CtPkg_A/viewform?usp=sf_link)
 
-Download the files and run in your own environment or use mybinder:   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
-
 This guide can be launched in mybinder. If you run the guide in mybinder, your progress will **NOT** be saved if you close out.  The `Dockerfile.txt` file will produce the correct environment in mybinder.  If you choose to use mybinder, you can launch via the button  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD) This should set up the correct environment to run CASA. However, the Virtual Machine provided by mybinder, may not be powerful enought to run this guide. It also will not save your progress. 
 
 If you choose to use your own environment, create a new python 3.6 environment and import the files. 

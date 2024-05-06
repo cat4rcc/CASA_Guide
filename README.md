@@ -2,7 +2,7 @@
 
 If you have issues with the guide, or comments please email cat4rcc@virginia.edu or arw6qz@virginia.edu
 
-last updated: 5/4/2024
+last updated: 5/6/2024
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)
 

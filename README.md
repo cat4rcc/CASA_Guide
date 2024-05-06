@@ -1,6 +1,6 @@
 # CASA Guide: BETA TEST
 
-If you have issues with the guide, or comments please email cat4rcc@virginia.edu
+If you have issues with the guide, or comments please email cat4rcc@virginia.edu or arw6qz@virginia.edu
 
 last updated: 5/4/2024
 

@@ -1,5 +1,7 @@
 # CASA Guide: BETA TEST
 
+If you have issues with the guide, or comments please email cat4rcc@virginia.edu
+
 last updated: 5/4/2024
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cat4rcc/casaguidebetaready/HEAD)

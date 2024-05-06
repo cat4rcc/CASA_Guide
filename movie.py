@@ -209,7 +209,7 @@ def movie(img, nchannels, svel, cmap, window, fitsdata = False):
             
     
         ani = animation.ArtistAnimation(fig, ims, interval=50, blit=True, repeat_delay=2500)
-        ani.save('./userGifs/'+ img +'.gif')
+        ani.save(img +'.gif')
         ani.save('movie.gif') #temp file
 
 
